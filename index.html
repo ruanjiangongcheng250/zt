@@ -1,12 +1,155 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/jquery-1.9.1.js"></script>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <title>jianli</title>
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <!--<link rel="stylesheet" href="css/theme/black.css">-->
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Printing and PDF exports -->
+    <script>
+       var cssEl=document.createElement('style');
+        document.documentElement.firstElementChild.appendChild(cssEl);
+        //设置html标签的font-size
+        function setPxPerRem(){
+            var dpr=1;
+            var pxPerRem=document.getElement.clientWidth*dpr /10;
+            cssEl.innerHTML='html{font-size:'+pxPerRem+'px!important;}';
+
+        }
+        setPxPerRem();
+    </script>
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
 </head>
 <body>
+<div class="reveal">
+    <div class="slides">
+        <section data-background="#334960">
+            <img id="avatar" src="image/head-pic.jpg" alt="avatar">
+            <h2 id="name">杨&nbsp;克&nbsp; </h2>
+            <p class="one">有一腔热血的激情，有一个像素的执着</p>
+            <h4 class="two">期望成为一名Web前端开发攻城狮</h4>
+            <p ><a target="_blank" href="270937005@qq.com" class="one"><b>270937005@qq.com</b></a></p>
+        </section>
+        <section data-transition="concave" data-background="#334960">
+            <h3 class="three"><i class="icon iconfont">&#xe602;</i>专业技能</h3>
+            <section>
+                <p>
+                    <span class="11"> CSS(3) </span>
+                    <span class="l2"> (X)HTML(5) </span>
+                    <span class="11"> Javascript </span>
+                    <span class="l5"> Photoshop </span>
+                </p>
+                <p>
+                    <span class="l2"> jQuery </span>
+                    <span class="l5"> Git </span>
+                    <span class="15">webpack</span>
+                    <span class="l4"> Grunt </span>
+                    <span class="l1"> Bootstrap </span>
+                </p>
+                <p>
+                    <span class="l5"> C </span>
+                    <span class="l4"> Java </span>
+                    <span class="l5"> C++ </span>
+                    <span class="l6"> Linux </span>
+                </p>
+                <p>
+                    <span class="12">CET4</span>
+                </p>
+            </section>
+            <section>
+                <div class="l5">
+                    <p>精通html,css制作符合w3c标准的页面，至少兼容YUI列出的A-grade浏览器</p>
+                    <p>使用浏览器条件注释(if IE)区别浏览器或使用css hack技术做各浏览器兼容</p>
+                    <p>熟悉标签语义,了解HTML5和css3新特性，熟悉SEO;熟练使用PS切图工具</p>
+                    <p>熟练使用JavaScript,并能熟练使用jquery，bootstrap等框架实现页面行为</p>
+                    <p>熟练使用DW,Hbuilder,sublime Text等开发工具</p>
+                    <p>熟悉commonJS规范,习惯使用sass编写css样式</p>
+                    <p>熟练使用git+github进行版本管理;熟悉http协议,对java和php有一定了解</p>
+                    <p>对前端框架angularJS和reactJS有一定的了解</p>
+                    <p>对前端自动化工具grunt,webpack有一定了解</p>
+                </div >
+            </section>
+        </section>
+        <section data-background="#334960" class="work">
+           <h3 class="four"><i class="icon iconfont">&#xe603;</i>工作经验</h3>
+            <p><span class="l6">2016/01-2016/06:</span>    <i>河北新龙科技有限公司</i></p>
+            <p><span class="l6">工作职位：</span>         web前端工程师</p>
+            <p><span class="l6">薪资：</span>             ￥3500</p>
+            <p><span class="l6">工作描述：</span>         负责搭建前端框架，根据UI原型，制作出HTML页面
+                  通过js/jquery完成界面功能及数据交互,Git完成项目版本控制，文档的撰写
+            </p>
+            <p><span class="l6">2015/08-2016/01</span>    <i>北京南天信息工程有限公司</i></p>
+            <p><span class="l6">工作职位：</span>         web前端工开发</p>
+            <p><span class="l6">薪资：</span>             ￥2000</p>
+            <p><span class="l6">工作描述：</span>         根据用户需求，完善页面界面及功能的添加
+                页面结构优化，提高用户体验文档的撰写
+            </p>
+        </section>
+        <section  data-background="#334960" class="work">
+
+                <h3 class="three"><i class="icon iconfont">&#xe600;</i>项目经验</h3>
+                <section data-background="#334960">
+                    <h4 class="two"><a href="http://xirentang.cn">席仁堂晚安好梦官网</a></h4>
+                    <p>
+                        工作职能：         在项目中担任主要开发人员，主要负责前端架构搭建，界面制作，功能完善，页面优化
+                    </p>
+                    <p>
+                        工作描述：         该网站不涉及后台，因此不涉及用户交互，只是为给用户展示公司和产品服务介绍。所以选择jquery框架。根据UI原型，搭建页面效果，并做至常用浏览器兼容。
+                    </p>
+                </section>
+                <section data-background="#334960">
+                    <h4 class="two">支付清算项目</h4>
+                    <p>
+                        工作职能： 搭建前端项目架构，界面制作，功能完善
+                    </p>
+                    <p>
+                        工作描述： 基于原有项目进行迭代，根据用户需求，更新页面结构和功能
+                    </p>
+                </section>
+
+        </section>
+        <section data-background="#334960" class="zuopin">
+            <h3><i class="icon iconfont">&#xe601;</i>作品集</h3>
+            <p><a href="https://snnny.github.io/taobao">仿淘宝首页(非响应式)</a></p>
+            <p><a href="https://snnny.github.io/webunion">bootstrap响应式网站</p>
+            <p><a href="https://snnny.github.io/shop">购物网站</p>
+            <p><a href="https://snnny.github.io/gallery">画廊</p>
+        </section>
+
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+        mouseWheel: true,
+
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            { src: 'plugin/markdown/marked.js' },
+            { src: 'plugin/markdown/markdown.js' },
+            { src: 'plugin/notes/notes.js', async: true },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+    });
+</script>
+</body>
 </body>
 </html>

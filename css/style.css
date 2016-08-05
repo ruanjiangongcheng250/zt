@@ -1,0 +1,105 @@
+@font-face {font-family: "iconfont";
+    src: url('../iconfont/iconfont.eot?t=1468370227'); /* IE9*/
+    src: url('../iconfont/iconfont.eot?t=1468370227#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../iconfont/iconfont.woff?t=1468370227') format('woff'), /* chrome, firefox */
+    url('../iconfont/iconfont.ttf?t=1468370227') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../iconfont/iconfont.svg?t=1468370227#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:20px;
+    font-style:normal;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+.icon-jineng-copy:before { content: "\e613"; }
+.icon-jingli:before { content: "\e66b"; }
+.icon-job:before { content: "\1"; }
+.icon-zuopinji:before { content: "\e6d1"; }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: #efefaf;
+    font-size: 1rem;
+}
+#avatar {
+    width: 256px;
+    height: 256px;
+    border: 10px solid #67949D;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%; }
+#name{
+    margin-top: -1.9rem;
+    margin-left: 7.1rem;
+    font-size: 8rem;
+}
+.tit
+p.one{
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+h4.two{
+    margin: 1rem;
+    font-size: 2rem;
+}
+.reveal .three{
+    font-size: 3rem;
+    margin-top: 9rem;
+}
+.reveal .four{
+    font-size: 3rem;
+    margin-bottom: 8rem;
+}
+.reveal .l1 {
+    font-size: 2.5em; }
+
+.reveal .l2 {
+    font-size: 2.2em; }
+
+.reveal .l3 {
+    font-size: 1.7em; }
+
+.reveal .l4 {
+    font-size: 1.5em; }
+
+.reveal .l5 {
+    font-size: 1.7em; }
+
+.reveal .l6 {
+    font-size: 1.2em; }
+.reveal .work p{
+    text-align: left;
+    line-height: 1.1;
+    font-size: 1.5rem;
+}
+.reveal .zuopin h3{
+    margin: 4rem;
+    font-size: 3rem;
+}
+.reveal .zuopin p{
+    line-height: 1.5;
+    font-size: 2rem;
+}
+.reveal .zuopin p a:hover{
+    color: #1b91ff;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    transition: color 1s;
+    text-decoration: underline;
+}
+h3 .iconfont {
+    color: #fff;
+    font-size: 3rem;
+    margin-right: .5rem;
+}
