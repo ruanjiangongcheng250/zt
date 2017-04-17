@@ -19,6 +19,7 @@
 .icon-jingli:before { content: "\e66b"; }
 .icon-job:before { content: "\1"; }
 .icon-zuopinji:before { content: "\e6d1"; }
+.icon-dingyuehao:before { content: "\e659"; }
 *{
     margin: 0;
     padding: 0;
@@ -39,6 +40,12 @@ a{
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%; }
+	
+#qrcode {
+width: 256px;
+height: 256px;
+border: 10px solid #67949D;
+}
 #name{
     margin-top: 0.9rem;
 	margin-bottom: 0.9rem;
